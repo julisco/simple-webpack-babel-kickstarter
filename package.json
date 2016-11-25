@@ -1,0 +1,22 @@
+{
+  "name": "simple-webpack-babel-kickstarter",
+  "version": "1.0.0",
+  "description": "A simple configuration to start a project based with yarn, es6, webpack",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf build/",
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "prod": "webpack -p"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
